@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    background-color: white;
+}
+
+.logo {
+    width: 15%;
+    margin-left: 5%;
+}
+.cabecalho {
+    background-color: white;
+    display: flex;
+    justify-content: space-between;
+   
+}
+.menu {
+    display: flex;
+    margin-top: 32px;
+    margin-right: 50px;
+    gap: 30px;
+    
+}
+.menuitem {
+    color: black;
+    font-size: 18px;
+    font-weight: 300;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+}
+
+.div-produto {
+    display: flex;
+    padding-top: 20px;
+}
+
+.div-imagem {
+    display: flex;
+    justify-content: space-between;
+    padding-left: 20px;
+}
+
+.imagem-produto {
+    height: 80%;
+    
+}
+
+.descricao-produto {
+    display: flex;
+    flex-direction: column;
+   
+}
+
+.descricao-produto h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+}
+
+.descricao-produto p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 30px;
+}
+
+
+.campo-tamanho {
+    display: flex;
+    padding-top: 345px;
+    
+}
+
+.campo-tamanho label {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 22px;
+    display: flex;
+    padding-right: 8px;
+}
+
+
+.campo-tamanho select {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 18px;
+
+    padding-left: 10px;
+
+
+    display: flex;
+    background-color: #ffffff;
+    border-width: 1px; 
+    border-color:  rgb(0, 0, 0); 
+    outline: none;
+    cursor: pointer;
+}
+
+.div-btn {
+    display: flex;
+    margin-top: 20px;
+    align-items: flex-end;
+}
+
+.btn-comprar {
+    background-color: rgb(255, 255, 255);
+    outline: none;
+    border-width: 1px; 
+    border-color:  rgb(0, 0, 0); 
+    cursor: pointer;
+    
+
+    font-family: 'Inter Tight', sans-serif;
+    color: rgb(0, 0, 0);
+    font-size: 23px;
+    padding: 15px 30px;
+    
+}
+
+button:hover {
+    background-color: black;
+    color: white;
+    transition: 500ms;
+}
+
+.textos-relacionados {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.textos-relacionados h1 {
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 500;
+    display: flex;
+}
+
+.textos-relacionados p {
+    font-family: 'Inter Tight', sans-serif;
+    font-size: 20px;
+    display: flex;
+}
+
+.imagens-relacionados {
+    display: flex;
+    justify-content: space-around;
+    padding-top: 40px;
+}
+
+.imagens-relacionados img {
+    width: 22%;
+    cursor: pointer;
+}
+
+.imagens-relacionados img:hover {
+    opacity: 80%;    
+}
+
+.footer {
+    padding-top: 8%;
+    padding-bottom: 5%;
+    gap: 30px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.footer img {
+    width:3%;
+    cursor: pointer;
+}
+
